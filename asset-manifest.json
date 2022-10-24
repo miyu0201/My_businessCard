@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/my_business_card/static/js/main.11b8e0d2.js",
+    "static/media/Yu.jpeg": "/my_business_card/static/media/Yu.eef5941e8cdf11521348.jpeg",
+    "index.html": "/my_business_card/index.html",
+    "main.11b8e0d2.js.map": "/my_business_card/static/js/main.11b8e0d2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.11b8e0d2.js"
+  ]
+}

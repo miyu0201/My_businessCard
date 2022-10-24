@@ -1,0 +1,198 @@
+* {
+    
+}
+
+body {
+position: absolute;
+width: 550px;
+height: 1100px;
+left: 400px;
+top: 53px;
+bottom: 53px;
+background: #23252C;
+
+} 
+
+
+
+.photo {
+position: absolute;
+width: 500px;
+height: 450px;
+left: 116px;
+top: 44px;
+
+background: url(.png);
+border-radius: 10px 10px 0px 0px;
+}
+
+.main{
+position: absolute;
+width: 500px;
+height: 850px;
+left: 116px;
+top: 300px;
+
+background: #1A1B21;
+display:flex;
+
+align-items: center;
+flex-flow: column; 
+}
+
+.name{
+
+margin-bottom:5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.title{
+margin-top:1px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+
+color: #F3BF99;
+}
+
+
+.web{
+margin-top:0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 9px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+color: #F5F5F5;
+
+}
+
+.button{
+margin-top:10px;
+ display:flex;
+align-items: center;
+flex-flow: row; 
+}
+
+.email{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+width: 115px;
+height: 32px;
+left: 151px;
+top: 468px;
+
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+border: 1px solid #D1D5DB;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* gray/700 */
+
+color: #374151;
+}
+
+.linkedin{
+margin-left:12px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+
+width: 115px;
+height: 34px;
+left: 283px;
+top: 468px;
+
+background: #5093E2;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+color: #FFFFFF;
+
+}
+.content{
+margin:30px;
+    
+}
+.content > h4 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* or 24px */
+
+color: #F5F5F5;
+}
+
+.content > p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 150%;
+/* or 15px */
+
+text-align: justify;
+color: #DCDCDC;
+
+}
+
+.content > ul{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 150%;
+/* or 15px */
+margin-left:-30px;
+text-align: justify;
+color: #DCDCDC;
+
+}
